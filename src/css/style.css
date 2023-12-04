@@ -1,0 +1,94 @@
+.bunner img {
+  width: 1920px;
+  height: 333px;
+  position: absolute;
+}
+
+.bunner .logo {
+  position: absolute;
+  margin-right: 20px;
+  width: 662px;
+  height: 210px;
+  top: 65px;
+  left: 50px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.container ul {
+  position: relative;
+  top: 360px;
+  display: flex;
+}
+.container ul li {
+  list-style-type: none;
+  margin-right: 89px;
+}
+.container ul a {
+  text-decoration: none;
+  font-family: SeoulNamsan CBL;
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+}
+
+.about_company_banner {
+  width: 1920px;
+  margin-top: 380px;
+  position: relative;
+}
+.about_company_banner .text_on_about_company_banner {
+  position: absolute;
+  top: 40px;
+  left: 54px;
+}
+.about_company_banner .text_on_about_company_banner p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  border-left: 5px solid wheat;
+  padding: 30px;
+}
+.about_company_banner .button_on_about_company_banner {
+  position: absolute;
+  right: 75px;
+  bottom: 40px;
+}
+
+.button_on_about_company_banner :nth-child(1) {
+  font-size: 24px;
+  color: #001AFF;
+  font-weight: 700;
+  background-color: white;
+  padding: 20px;
+  border: 5px solid #001AFF;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+.button_on_about_company_banner :nth-child(2) {
+  font-size: 24px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #001AFF;
+  width: 275px;
+  height: 78px;
+}
+
+.text {
+  width: 250px;
+  margin: 0 auto;
+}
+.text h2 {
+  padding: 20px;
+  border-bottom: 4px solid #001AFF;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}/*# sourceMappingURL=style.css.map */
